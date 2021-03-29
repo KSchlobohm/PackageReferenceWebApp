@@ -246,6 +246,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryOldNewtonsoft\ClassLibraryOldNewtonsoft.csproj">
+      <Project>{4915a64c-025d-4952-b098-d7f53d582084}</Project>
+      <Name>ClassLibraryOldNewtonsoft</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibraryRecentNewtonsoft\ClassLibraryRecentNewtonsoft.csproj">
+      <Project>{b1219cd0-0730-4310-a756-5d7d5d811b70}</Project>
+      <Name>ClassLibraryRecentNewtonsoft</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
